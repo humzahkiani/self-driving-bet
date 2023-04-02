@@ -8,5 +8,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-  base: '/self-driving-bet/'
 }
