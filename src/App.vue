@@ -5,13 +5,16 @@
 <template>
   <!-- PAGE -->
     <!-- HEADER -->
-    <header class="flex flex-row pt-16 pb-16">
+    <header class="flex flex-row pt-16 pb-16 ">
       <h1 class="flex">
       Autonomous Vehicles... Soon to Come or Wishful Thinking?
       </h1>
     </header>
     <!-- HEADER -->
     
+    <div class = "flex-row pb-8">
+      <vue3-flip-countdown mainColor = "b53f3f" labelColor = "cornsilk"  deadline="2027-4-1 00:00:00" deadlineDate="2027-04-01"/>
+    </div>
 
     <!-- BET DETAILS -->
     <div class = "flex-row pt-8 pb-8">
@@ -19,14 +22,14 @@
         THE BET
       </h2>
       <p class="pt-4">
-        Autonomous cars will be readily available for booking in an uber/taxi-like fashion in Richmond, VA by
-        <span class="underline font-bold">
+        Autonomous cars will be readily available for booking in an uber/taxi-like fashion in <span>Richmond, VA</span> by
+        <span>
         April 1, 2027
         </span>
       </p>
       <p>
-        <br>FOR: Peter Stercx
-        <br>AGAINST: Humzah Kiani
+        <br><span>FOR:</span> Peter Stercx
+        <br><span>AGAINST:</span> Humzah Kiani
       </p>
     </div>
     <!-- BET DETAILS -->

@@ -15,20 +15,28 @@
 }
 body {
   font-family: 'Destructo';
-
   background-color: rgb(17 23 41) !important;
   text-align: center;
   color: cornsilk;
   height: 100vh;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
   justify-content: center
 }
 
-h1, h2 {
-  font-size: 5.9vw;
+h1 {
+  font-size: 5.5vw;
+}
+
+h2 {
+  font-size: 5vw;
+  color:rgb(181, 63, 63);
 }
 
 p {
   font-size: 3vmin;
+}
+
+span {
+  color:rgb(181, 63, 63);
 }
