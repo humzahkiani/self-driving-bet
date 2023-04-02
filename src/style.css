@@ -1,7 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+#app {
+  height: 100vh;
+}
 body {
+  font-family: 'Roboto Mono', monospace;
   background-color: rgb(15 23 42);
+  text-align: center;
+  color: cornsilk;
+  height: 100vh;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  justify-content: center
+}
+
+h1, h2 {
+  font-size: 5.9vw;
+}
+
+p {
+  font-size: 3vmin;
 }
