@@ -30,8 +30,9 @@
       </p>
     </div>
     <!-- BET DETAILS -->
-    
+
 </template>
 
 <style scoped>
+
 </style>

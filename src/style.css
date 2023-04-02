@@ -1,12 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "Destructo";
+  src: local("Destructo"),
+   url(./assets/fonts/destructobeambb_reg.ttf) format("truetype");
+}
 #app {
   height: 100vh;
+  /* background-image: url(assets/pics/future1.jpg) !important;
+  background-size: cover;
+  background-position: center; */
+
 }
 body {
-  font-family: 'Roboto Mono', monospace;
-  background-color: rgb(15 23 42);
+  font-family: 'Destructo';
+
+  background-color: rgb(17 23 41) !important;
   text-align: center;
   color: cornsilk;
   height: 100vh;
