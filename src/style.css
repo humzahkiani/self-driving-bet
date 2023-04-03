@@ -7,33 +7,35 @@
    url(./assets/fonts/destructobeambb_reg.ttf) format("truetype");
 }
 
-html { 
-  height: 100%; 
+html{
+  height: 150%;
+  margin: 0;
+  padding: 0;
 }
-
 body {
   min-height:100%;
   /* background-color: rgb(17 23 41); */
+  background-size: cover;
   font-family: 'Destructo';
   text-align: center;
   color: cornsilk;
   justify-content: center;
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
   border: 1px solid transparent;
 }
 
 h1 {
-  font-size: 5.2vw;
+  font-size: 4vmax;
 }
 
 h2 {
-  font-size: 4.8vw;
+  font-size: 4vmax;
   color:rgb(181, 63, 63);
 }
 
 p {
-  font-size: 3vmin;
+  font-size: 5vmin;
 }
 
 span {

@@ -17,17 +17,17 @@
     </div>
 
     <!-- BET DETAILS -->
-    <div class = "flex-row mt-4">
+    <div class = "flex-row">
       <h2>
         THE BET
       </h2>
-      <p class="mt-4 mx-4">
+      <p class="mt-2 mx-2">
         Autonomous cars will be readily available for booking in an uber/taxi-like fashion in <span>Richmond, VA</span> by
         <span>
         April 1, 2027
         </span>
       </p>
-      <p>
+      <p class="mt-4">
         <br><span>FOR:</span> Peter Stercx
         <br><span>AGAINST:</span> Humzah Kiani
       </p>
